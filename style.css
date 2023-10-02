@@ -29,6 +29,17 @@
     font-style: italic;
 }
 
+.albumTitle{
+    font-size: large;
+    color: darkslateblue;
+}
+
+.albumContent{
+    font-weight: 650;
+    color: #004200;
+}
+
+
 body {
 	background: linear-gradient(-45deg, #ffffff, #bcd6e2, #abd3e2);
 	background-size: 400% 400%;
