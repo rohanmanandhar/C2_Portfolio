@@ -295,7 +295,12 @@
                 <li class="nav-item"><a href="mailto:rohanmanandhar@hotmail.com" class="nav-link px-2 text-body-secondary">Email</a></li>
                 <li class="nav-item"><a href="https://www.linkedin.com/in/rohanmanandhar" target="_blank" class="nav-link px-2 text-body-secondary">LinkedIn</a></li>
               </ul>
-              <p class="text-center text-body-secondary">© 2023 Rohan Manandhar</p>
+              <p id="currentYear" class="text-center text-body-secondary"></p>
+
+              <script>
+                var currentYear = new Date().getFullYear();
+                document.getElementById("currentYear").innerHTML = "© " + currentYear + " Rohan Manandhar";
+              </script>
             </footer>
           </div>
 
